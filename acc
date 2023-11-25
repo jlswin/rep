@@ -1,0 +1,4 @@
+var accounts = apiService.sql("SELECT * FROM users", (err, res) => {
+  console.log(err); // ошибка
+  console.log(res); // результат выполнения запроса
+});
